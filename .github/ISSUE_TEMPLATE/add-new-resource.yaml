@@ -14,8 +14,7 @@ body:
     placeholder: Resource Name
   validation:
     required: true
-    minLength: 5
-    maxLength: 100
+
   
 
 - type: textarea
@@ -25,8 +24,7 @@ body:
     placeholder: Resource Description
   validation:
     required: true
-    minLength: 10
-    maxLength: 1000
+
 
 - type: dropdown
   attributes:
