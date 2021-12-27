@@ -67,7 +67,7 @@ body:
       - OS
       - Some Cool Profile/Portfolio
       - Other
-  validation:
+  validations:
     required: true
 
 - type: dropdown
@@ -82,7 +82,7 @@ body:
       - Awesome
       - DAMN! Awesome
 
-  validation:
+  validations:
     required: true
 
 - type: checkboxes
