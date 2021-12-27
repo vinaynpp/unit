@@ -1,6 +1,6 @@
----
+
 name: Add New Resource
-about: Fill in the details of the resource you wish to add
+description : Fill in the details of the resource you wish to add
 title: Add name of resource
 labels: [enhancement]
 assignees: 
@@ -10,7 +10,7 @@ body:
 -type: input
   attributes:
     label: Resource Name
-    description:  what name should this be shown as in the UI
+    description:  What name should this be shown as in the UI ?
     placeholder: Resource Name
   validation:
     required: true
