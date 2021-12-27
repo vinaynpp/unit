@@ -7,7 +7,7 @@ assignees:
   - vinaynpp
 
 body:
--type: input
+- type: input
   attributes:
     label: Resource Name
     description:  What name should this be shown as in the UI ?
@@ -15,7 +15,7 @@ body:
   validation:
     required: true
 
--type: textarea
+- type: textarea
   attributes:
     label: Resource Description
     description: Describe the resource
@@ -23,7 +23,7 @@ body:
   validation:
     required: true
 
--type: dropdown
+- type: dropdown
   attributes:
     label: Resource Type
     description: |
@@ -65,7 +65,7 @@ body:
   validation:
     required: true
 
--type: dropdown
+- type: dropdown
   attributes:
     label: How Cool is it?
     description: |
