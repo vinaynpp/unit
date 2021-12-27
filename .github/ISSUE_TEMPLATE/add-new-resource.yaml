@@ -1,0 +1,26 @@
+---
+name: Add New Resource
+about: Fill in the details of the resource you wish to add
+title: "Add name of resource"
+labels: enhancement
+assignees: vinaynpp
+
+body:
+-type: text
+  name: "Description"
+  value: "Describe the resource you wish to add"
+
+-type: text
+  name: "Resource URL"
+  value: "Enter the URL of the resource"
+
+-type: text
+  name: "Resource Type"
+  value: "Enter the type of resource"
+
+-type: text
+  name: "Resource Category"
+  value: "Enter the category of resource"
+
+
+
