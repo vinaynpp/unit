@@ -12,9 +12,10 @@ body:
     label: Resource Name
     description:  What name should this be shown as in the UI ?
     placeholder: Resource Name
-  validation:
+  validations:
     required: true
-
+    minLength: 5
+    maxLength: 100
   
 
 - type: textarea
@@ -22,9 +23,10 @@ body:
     label: Resource Description
     description: Describe the resource
     placeholder: Resource Description
-  validation:
+  validations:
     required: true
-
+    minLength: 10
+    maxLength: 1000
 
 - type: dropdown
   attributes:
