@@ -9,7 +9,9 @@ body:
 - type: input
   attributes:
     label: Resource Name
-    description:  What name should this be shown as in the UI ?
+    description:  |
+      What name should this be shown as in the UI ?
+      5-100 characters
     placeholder: Resource Name
   validations:
     required: true
@@ -20,7 +22,9 @@ body:
 - type: textarea
   attributes:
     label: Resource Description
-    description: Describe the resource
+    description: |
+      Describe the resource
+      10-1000 characters
     placeholder: Resource Description
   validations:
     required: true
