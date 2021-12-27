@@ -2,25 +2,96 @@
 name: Add New Resource
 about: Fill in the details of the resource you wish to add
 title: "Add name of resource"
-labels: enhancement
-assignees: vinaynpp
+labels: ["enhancement"]
+assignees: 
+  - vinaynpp
 
 body:
--type: text
-  name: "Description"
-  value: "Describe the resource you wish to add"
+-type: input
+  attributes:
+  label: "Resource Name"
+  description: " what name should this be shown as in the UI"
+  placeholder: "Resource Name"
+  validation:
+    required: true
+    minLength: 5
+    maxLength: 1000
+-type: textarea
+  attributes:
+  label: "Resource Description"
+  description: "Describe the resource"
+  placeholder: "Resource Description"
+  validation:
+    required: true
+    minLength: 5
+    maxLength: 1000
 
--type: text
-  name: "Resource URL"
-  value: "Enter the URL of the resource"
+-type: dropdown
+  attributes:
+    label: "Resource Type"
+    description: |
+      Select the type of resource you wish to add
+    options:
+      - "Some Online Course"
+      - "Automation Tool"
+      - "Cheat Sheet"
+      - "Roadmaps"
+      - "Notes"
+      - "Bot"
+      - "Parsers"
+      - "Datasets"
+      - "ML-DL-AI Algorithm"
+      - "ML-DL-AI Tool"
+      - "ML-DL-AI Model"
+      - "Server Management Tool"
+      - "Containers (Docker, Kubernetes)"
+      - "Monitoring Tool"
+      - "Security Tool"
+      - "Security Exploit"
+      - "Security Library/Framework/Package"
+      - "UI Library/Framework/Package"
+      - "API Library/Framework/Package"
+      - "Database Library/Framework/Package"
+      - "DBMS Solution"
+      - "DBMS Tool"
+      - "Mobile App (IOS/Android/Web)"
+      - "Desktop App (Linux/MacOS/Windows)"
+      - "Web App"
+      - "Cloud Based Solution"
+      - "General Library/Framework/Package"
+      - "General Tool"
+      - "General Scripts"
+      - "Language"
+      - "OS"
+      - "Some Cool Profile/Portfolio"
+      - "Other"
+  validation:
+    required: true
 
--type: text
-  name: "Resource Type"
-  value: "Enter the type of resource"
+-type: dropdown
+  attributes:
+    label: "How Cool is it?"
+    description: |
+      Just say it
+    options:
+      - "Fine"
+      - "Good"
+      - "Really Good"
+      - "Awesome"
+      - "DAMN! Awesome"
 
--type: text
-  name: "Resource Category"
-  value: "Enter the category of resource"
+  validation:
+    required: true
 
+- type: checkboxes
+  attributes:
+    label: Take an oath
+    description: |
+      I hereby declare that I am a human being and not a robot.
+      And also that i have the right 
+      to provide you the right 
+      to share this resource with the world.
 
-
+    options:
+    - label: I agree
+      required: true
