@@ -9,18 +9,18 @@ assignees:
 body:
 -type: input
   attributes:
-  label: "Resource Name"
-  description: " what name should this be shown as in the UI"
-  placeholder: "Resource Name"
+    label: "Resource Name"
+    description: " what name should this be shown as in the UI"
+    placeholder: "Resource Name"
   validation:
     required: true
     minLength: 5
     maxLength: 1000
 -type: textarea
   attributes:
-  label: "Resource Description"
-  description: "Describe the resource"
-  placeholder: "Resource Description"
+    label: "Resource Description"
+    description: "Describe the resource"
+    placeholder: "Resource Description"
   validation:
     required: true
     minLength: 5
