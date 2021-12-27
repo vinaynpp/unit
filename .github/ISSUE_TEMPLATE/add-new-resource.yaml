@@ -1,26 +1,26 @@
 ---
 name: Add New Resource
 about: Fill in the details of the resource you wish to add
-title: "Add name of resource"
-labels: ["enhancement"]
+title: Add name of resource
+labels: [enhancement]
 assignees: 
   - vinaynpp
 
 body:
 -type: input
   attributes:
-    label: "Resource Name"
-    description: " what name should this be shown as in the UI"
-    placeholder: "Resource Name"
+    label: Resource Name
+    description:  what name should this be shown as in the UI
+    placeholder: Resource Name
   validation:
     required: true
     minLength: 5
     maxLength: 1000
 -type: textarea
   attributes:
-    label: "Resource Description"
-    description: "Describe the resource"
-    placeholder: "Resource Description"
+    label: Resource Description
+    description: Describe the resource
+    placeholder: Resource Description
   validation:
     required: true
     minLength: 5
@@ -28,57 +28,57 @@ body:
 
 -type: dropdown
   attributes:
-    label: "Resource Type"
+    label: Resource Type
     description: |
       Select the type of resource you wish to add
     options:
-      - "Some Online Course"
-      - "Automation Tool"
-      - "Cheat Sheet"
-      - "Roadmaps"
-      - "Notes"
-      - "Bot"
-      - "Parsers"
-      - "Datasets"
-      - "ML-DL-AI Algorithm"
-      - "ML-DL-AI Tool"
-      - "ML-DL-AI Model"
-      - "Server Management Tool"
-      - "Containers (Docker, Kubernetes)"
-      - "Monitoring Tool"
-      - "Security Tool"
-      - "Security Exploit"
-      - "Security Library/Framework/Package"
-      - "UI Library/Framework/Package"
-      - "API Library/Framework/Package"
-      - "Database Library/Framework/Package"
-      - "DBMS Solution"
-      - "DBMS Tool"
-      - "Mobile App (IOS/Android/Web)"
-      - "Desktop App (Linux/MacOS/Windows)"
-      - "Web App"
-      - "Cloud Based Solution"
-      - "General Library/Framework/Package"
-      - "General Tool"
-      - "General Scripts"
-      - "Language"
-      - "OS"
-      - "Some Cool Profile/Portfolio"
-      - "Other"
+      - Some Online Course
+      - Automation Tool
+      - Cheat Sheet
+      - Roadmaps
+      - Notes
+      - Bot
+      - Parsers
+      - Datasets
+      - ML-DL-AI Algorithm
+      - ML-DL-AI Tool
+      - ML-DL-AI Model
+      - Server Management Tool
+      - Containers (Docker, Kubernetes)
+      - Monitoring Tool
+      - Security Tool
+      - Security Exploit
+      - Security Library/Framework/Package
+      - UI Library/Framework/Package
+      - API Library/Framework/Package
+      - Database Library/Framework/Package
+      - DBMS Solution
+      - DBMS Tool
+      - Mobile App (IOS/Android/Web)
+      - Desktop App (Linux/MacOS/Windows)
+      - Web App
+      - Cloud Based Solution
+      - General Library/Framework/Package
+      - General Tool
+      - General Scripts
+      - Language
+      - OS
+      - Some Cool Profile/Portfolio
+      - Other
   validation:
     required: true
 
 -type: dropdown
   attributes:
-    label: "How Cool is it?"
+    label: How Cool is it?
     description: |
       Just say it
     options:
-      - "Fine"
-      - "Good"
-      - "Really Good"
-      - "Awesome"
-      - "DAMN! Awesome"
+      - Fine
+      - Good
+      - Really Good
+      - Awesome
+      - DAMN! Awesome
 
   validation:
     required: true
